@@ -12,8 +12,11 @@ namespace FileSorter
         public string[] Files { get; set; }
         public Init()
         {
-            StartDiryPath = @"C:\Users\Balogh Márton\Desktop\folder1\";
-            DestDirPath = @"C:\Users\Balogh Márton\Desktop\folder2\";
+            //     C:\\Users\\Balogh Márton\\Desktop\\folder2\\
+            Console.WriteLine("Type the path of your folder what you want to sort:");
+            StartDiryPath = Console.ReadLine();
+            Console.WriteLine("Type your the destination folder:");
+            DestDirPath = Console.ReadLine();
             Files = Directory.GetFileSystemEntries(StartDiryPath);
         }
         public void SortTheFolder()
