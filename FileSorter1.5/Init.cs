@@ -15,7 +15,7 @@ namespace FileSorter
             //     C:\\Users\\Balogh Márton\\Desktop\\folder2\\
             Console.WriteLine("Type the path of your folder what you want to sort:");
             StartDiryPath = Console.ReadLine();
-            Console.WriteLine("Type your the destination folder:");
+            Console.WriteLine("Type the path of your destination folder:");
             DestDirPath = Console.ReadLine();
             Files = Directory.GetFileSystemEntries(StartDiryPath);
         }
