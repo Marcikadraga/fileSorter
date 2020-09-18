@@ -10,4 +10,4 @@ type the path of your destination folder.
 Your path have to look like this:  C:\\folder\\anotherFolderIfYouNeed\\  
 
 #### Installation:  
-The code is open source ,you can clone the repository and use it.
+The code is open source ,you can clone the repository and use it. 
