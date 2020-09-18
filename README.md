@@ -7,7 +7,7 @@ You can sort your files to different folders by extension.
 * Run the program,  
 * type the path of your folder what you want to sort,  
 * type the path of your destination folder.  
-Your path have to look like this:  C:\\folder\\anotherFolderIfYouNeed\\  
+Your path have to look like this:  C:\\\folder\\\anotherFolderIfYouNeed\\\  
 
 #### Installation:  
 The code is open source ,you can clone the repository and use it. 
